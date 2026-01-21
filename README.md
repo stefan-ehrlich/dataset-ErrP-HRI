@@ -11,9 +11,6 @@ This repository contains the dataset accompanying the publication:
 
 The dataset is designed for research on **error-related potentials (ErrP)** in **human–robot interaction (HRI)**, where ErrPs are elicited when a human observes robot behavior that is **incorrect** or **unexpected**.
 
-Documentation (protocol, setup description, and data details) is provided in:
-- `documentation_dataset-ErrP-HRI.pdf`
-
 ---
 
 ## Repository structure
@@ -27,6 +24,7 @@ dataset-ErrP-HRI/
 ├── documentation_dataset-ErrP-HRI.pdf    # dataset documentation (recommended)
 ├── documentation_dataset-ErrP-HRI.docx   # editable documentation version
 └── README.md
+```
 
 ## Study description (brief)
 
@@ -36,7 +34,7 @@ dataset-ErrP-HRI/
 **Design:** Participants observed system behavior across different scenarios/conditions. Trials are annotated such that EEG epochs can be assigned to **error vs. correct** events (and potentially further task phases depending on the dataset documentation).
 
 This dataset supports typical ErrP pipelines such as:
-- epoch extraction around **error/correct** events
+- epoch extraction around **error/non-error** events
 - ERP averaging and statistical analysis
 - single-trial classification (e.g., **LDA / SVM / Riemannian / CNN** baselines)
 
@@ -58,6 +56,7 @@ Depending on the condition folder (`cursor/`, `robot/`), the dataset includes:
 - scenario-dependent task metadata
 
 For exact data formats, EEG configuration, event codes, and label semantics, consult the provided documentation.
+- `documentation_dataset-ErrP-HRI.pdf`
 
 ---
 
