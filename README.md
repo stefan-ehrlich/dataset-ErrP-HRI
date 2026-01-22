@@ -18,12 +18,12 @@ The dataset is designed for research on **error-related potentials (ErrP)** in *
 ```text
 dataset-ErrP-HRI/
 ├── cursor/                              # EEG data: "cursor" condition / scenario
-│   └── s01
-│   └── s02
+│   └── s02_cursor.fdt
+│   └── s02_cursor.set
 │   └── ...
 ├── robot/                               # EEG data: "robot" condition / scenario
-│   └── s01
-│   └── s02
+│   └── s02_robot.fdt
+│   └── s02_robot.set
 │   └── ...
 ├── documentation_dataset-ErrP-HRI.pdf    # dataset documentation (recommended)
 └── README.md
